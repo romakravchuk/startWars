@@ -28,7 +28,6 @@ import { CharactersResponse } from "../service/models/character.model";
         (previous)="previousPage()"
       ></app-pagination>
   `,
-  styleUrl: './home.component.css'
 })
 
 export class HomeComponent implements OnInit {
